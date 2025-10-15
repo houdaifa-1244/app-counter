@@ -1,0 +1,366 @@
+.color{
+color: #26c0ab;
+color: #00494d;
+color: #5e7a7d;
+color: #7f9c9f;
+color: #c5e4e7;
+color: #f4fafb;
+color: #ffffff;
+}
+body{
+    background-color: #c5e4e7;
+    font-family: 'Space Mono';
+    font-weight: 700;
+}
+.logo{
+    display: block;
+    margin: auto;
+    margin-top: 80px;
+    width: 70px;
+}
+.card{
+    width: 580px;
+    height: 265px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    position:relative;
+    top:50px;
+    display: block;
+    margin: auto;
+    box-shadow: 0  0px  5px rgb(0, 0, 0,0.3);
+    padding: 20px 30px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 10;
+}
+.bill input{
+    width: 250px;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: #e5f3f6;
+    color: #00494d;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    padding: 5px 2PX;
+    border-radius: 5px;
+}
+.bill input::placeholder{
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: #00494d;
+    padding-right: 5px;
+    padding-left: 2.5px;
+}
+.bill input:focus{
+    border:2px solid #26c0ab
+}
+.bill img{
+    position: relative;
+    left: -250px;
+    width: 10px;
+}
+.bill label{
+    color: #7f9c9f;
+    font-size: 12px;
+}
+.pouvoir label{
+    color: #7f9c9f;
+    font-size: 12px;
+    position: relative;
+    top: 20px;
+}
+.tip-1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 30px;
+    right:  10px;
+}
+.coln{
+    width: 60px;
+    text-align: center;
+    background-color: #00494d;
+    padding: 3px 8PX;
+    border-radius: 5px;
+    color: #ffffff;
+}
+.coln:hover{
+    background-color: #7f9c9f;
+    cursor: pointer;
+}
+
+.tip-2{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+    right:  10px;
+}
+.tip-2 input{
+    width: 71px;
+    height: 25px;
+    position: relative;
+    left: -1px;
+    border: none;
+    outline: none;
+    background-color: #e5f3f6;
+    color: #00494d;
+    font-size: 18px;
+    text-align: right;
+    font-family: 'Space Mono';
+    /* padding: 5px 2PX; */
+    border-radius: 5px;
+    font-weight: 700;
+}
+.tip-2 input::placeholder{
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: #00494d;
+    padding-right: 5px;
+    padding-left: 2.5px;
+}
+.tip-2 input:focus{
+    border: 2px solid #26c0ab
+}
+.person label{
+    position: relative;
+    left: -10px;
+    top: 50px;
+    font-size: 12px;
+}
+#warning{
+    color: red;
+    position: relative;
+    font-size: 9px;
+    left: 50px;
+    visibility: hidden;
+}
+
+.person input{
+    position:absolute;
+    margin-top: 75px;
+    margin-left: -135px;
+    width: 260px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: #e5f3f6;
+    color: #00494d;
+    font-size: 24px;
+    text-align: right;
+    font-weight: 700;
+    font-family: 'Space Mono';
+    padding: 5px 2PX;
+    border-radius: 5px;
+}
+.person input::placeholder{
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: #00494d;
+    padding-right: 5px;
+    padding-left: 2.5px;
+}
+.person input:focus{
+    border:2px solid #26c0ab
+}
+.person img{
+    position: absolute;
+    right:590px;
+    top: 251px;
+    width: 10px;
+}
+.part-2{
+    position: absolute;
+    margin-left: 280px;
+    border-radius: 10px;
+    margin-top: 100px;
+    background-color: #00494d;
+    width: 300px;
+    height: 260px;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    margin-top: 30px;
+}
+.tip-amount{
+    font-size:13px;
+    position: relative;
+    left:20px;
+    color: #ffffff;
+}
+.wort{
+    font-size: 12px;
+    color: #7f9c9f;
+}
+#total-1{
+    color: #26c0ab;
+    font-size:30px;
+    margin-left: -20px;
+}
+.persontage{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    position: absolute;
+    margin-top: 100px;
+}
+.tip-persontage{
+    font-size:13px;
+    position: relative;
+    left:20px;
+    color: #ffffff;
+}
+.powr{
+    font-size: 12px;
+    color: #7f9c9f;
+
+}
+#total-2{
+    color: #26c0ab;
+    font-size:30px;
+    margin-left: 10px;
+}
+button{
+    position:absolute;
+    margin-top: 200px;
+    margin-left: 28px;
+    border-radius: 5px;
+    padding: 8px 100px;
+    background-color: #177266;
+    color: #00494d;
+    border: none;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color:#7f9c9f;
+    cursor: pointer;
+}
+
+
+
+
+ 
+@media (max-width: 375px) {
+    .logo {
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .content {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .card {
+        width: 100%;
+        width: 270px;
+        height: 630px;
+        padding: 32px 24px;
+        top: 0;
+        border-radius: 20px ;
+        box-sizing: border-box;
+    }
+    .tip-1, .tip-2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+        top: 10px;
+    }
+    .bill input{
+        width: 220px;
+        position: relative;
+        left: -10px;
+    }
+    .bill label{
+        font-size: 10px;
+    }
+    .bill img{
+        left: 5px;
+        top: -28px;
+    }
+    #number{
+        top: 200px;
+        left: 120px;
+        width: 220px;
+    }
+    .person img{
+        left: 3px;
+        top:287px;
+    }
+    .person label{
+        font-size:10px;
+    }
+    #fifTeen{
+        position: relative;
+        top: -7px;
+    }
+    #custom{
+        position: relative;
+        top: -44.5px;
+        left: 120px;
+        width: 90px;
+        text-align: center;
+    }
+    #fefTy{
+        position: relative;
+        top: -38px;
+    }
+    .coln{
+        width: 80px;
+    }
+    .pouvoir label{
+        top: -10px;
+    }
+    .part-1{
+        position: relative;
+        left: 15px;
+    }
+    #warning{
+        font-size: 8px;
+        left: 20px;
+    }
+    .part-2{
+        width: 230px;
+        height: 240px;
+        top: 270px;
+        left: -255px;
+    }
+    .tip-amount, .tip-persontage{
+        font-size: 10px;
+    }
+    .wort, .powr{
+        font-size: 9px;
+    }
+    button{
+        padding:8px 70px;
+        margin-left:23px;
+        margin-top: 190px;
+    }
+    #total-1{
+        font-size: 20px;
+        margin-left: -30px;
+    }
+    #total-2{
+        font-size: 20px;
+        margin-left: -5.5px;
+    }
+
+} 
+
+
+
+
+
+
+
+
+
+
+
