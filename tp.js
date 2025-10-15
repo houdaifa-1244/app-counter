@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function(){
         })
         calculate()
     })
-
+    // reset event
     resetButton.addEventListener("click", function(){
         billInput.value = "";
         numberInput.value = "";
