@@ -249,7 +249,7 @@ button:hover{
 
 
  
-@media (max-width: 375px) {
+@media (max-width: 400px) {
     .logo {
         margin-top: 50px;
         margin-bottom: 40px;
@@ -353,14 +353,3 @@ button:hover{
     }
 
 } 
-
-
-
-
-
-
-
-
-
-
-
